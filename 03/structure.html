@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="./css/structure.css">
+    <script>
+      function test() {
+        alert("현재 단체여행은 마감되었습니다.");
+        document.location="http://www.naver.com";
+      }
+    </script>
 </head>
 <body>
     <div id="container"> 
@@ -15,11 +21,25 @@
             </div>
             <nav>
               <ul id="topMenu">
-                <li><a href="#">단체 여행</a></li>
-                <li><a href="#">맞춤 여행</a></li>
-                <li><a href="#">갤러리</a></li>
+                <li><a href="#" onclick="test();">단체 여행</a></li>
+                <li><a href="http://www.google.com" target="_blank">맞춤 여행</a></li>
+                <li><a href="http://www.naver.com" target="_blank">갤러리</a></li>
                 <li><a href="#">문의하기</a></li>
               </ul>
+              <select name="" id="">
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+                <option value="1">12345</option>
+              </select>
             </nav>
           </header>
           <main class="contents">
@@ -51,7 +71,7 @@
     <footer>    
       <section id="bottomMenu">
         <ul>
-          <li><a href="#">회사 소개</a></li>
+          <li><a href="#" >회사 소개</a></li>
           <li><a href="#">개인정보처리방침</a></li>
           <li><a href="#">여행약관</a></li>
           <li><a href="#">사이트맵</a></li>
