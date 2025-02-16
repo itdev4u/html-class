@@ -1,4 +1,10 @@
 #container {
     width: 800px; 
     margin: 0 auto;
+    /*background-color: aqua;*/
+}
+
+table, tr, th, td {
+    border: 1px;
+    border-style: solid;
 }
